@@ -14,13 +14,7 @@ def memory_addressing(page_table,page_size,local_address):
     else:
         print("Invalid page number,address translation failed.")
 
-a=int(input("定義頁表key1:"))
-b=int(input("定義頁表value1:"))
-c=int(input("定義頁表key2:"))
-d=int(input("定義頁表value2:"))
-e=int(input("定義頁表key3:"))
-f=int(input("定義頁表vlaue3:"))
-page_table ={a:b,c:d,e:f}
+page_table={0:5,1:9,2:14}
 page_size = 4096
 variable=int(input("邏輯位址為:"))
 logical_address = variable
