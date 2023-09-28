@@ -1,7 +1,7 @@
 import sqlite3
 
 #連接到SQLite資料庫(若資料庫不存在，將創建一個新的資料庫文件)
-conn=sqlite3.connect('1.db')
+conn=sqlite3.connect('BBQ.db')
 
 #創建一個游標對象，用於執行SQL查詢
 cursor=conn.cursor()
